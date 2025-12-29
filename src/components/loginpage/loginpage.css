@@ -1,0 +1,61 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #2051e5;
+  font-family: sans-serif;
+  gap: 15px;
+}
+
+.login-logo {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.logo-crm {
+  color: #e8e000;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  width: 200px;
+  border: none;
+  background-color: #d9d9d9;
+  color: #374151;
+}
+
+.login-submit-btn {
+  align-self: center;
+  padding: 8px 10px;
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  width: 95px;
+  text-align: center;
+  font-weight: 700;
+}
+
+input::placeholder {
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.login-submit-btn span {
+  color: rgba(0, 0, 0, 0.4);
+}

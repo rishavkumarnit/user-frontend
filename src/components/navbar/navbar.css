@@ -1,0 +1,30 @@
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background: white;
+  border-top: 1px solid #EAE9F0;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  font-size: 12px;
+  display: flex;
+  height: 5vh;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #445668;
+  cursor: pointer;
+}
+
+
+.active {
+  color: #2051e5;
+}

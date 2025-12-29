@@ -1,0 +1,172 @@
+.circle-1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: fixed;
+  background-color: #ffffff;
+  opacity: 0.05;
+  top: -95px;
+}
+.circle-2 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: fixed;
+  background-color: white;
+  opacity: 0.05;
+  top: -45px;
+  left: -80px;
+  pointer-events: none;
+}
+.login-logo-dash {
+  font-size: 15px;
+  font-weight: 500;
+}
+.dash-header {
+  background-color: #2051e5;
+  padding: 22px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  border-radius: 0 0 20px 20px;
+  color: white;
+}
+
+.brand {
+  margin: 0;
+  font-size: 18px;
+}
+
+.greeting {
+  margin-top: 12px;
+  opacity: 0.9;
+  font-size: 12px;
+}
+
+.username {
+  margin-top: 8px;
+  font-weight: 500;
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+
+.section {
+  padding: 0px 20px;
+}
+
+.section-title {
+  margin-top: 2vh;
+  margin-bottom: 10px;
+  color: #0d1829;
+  font-weight: 600;
+}
+
+.timing-card {
+  background: #2051e5;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 14px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr auto;
+  margin-bottom: 12px;
+  border: 1px solid #d0d0d0;
+  box-shadow: 1px 2px 5px rgb(141, 141, 141);
+}
+.timing-card-2 {
+  background: #2051e5;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 14px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr auto;
+  border: 1px solid #d0d0d0;
+  box-shadow: 1px 2px 5px rgb(141, 141, 141);
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.time {
+  font-size: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.toggle {
+  width: 9px;
+  height: 28px;
+  background: #e4e4e4;
+  border-radius: 10px;
+  border: 2px solid #eef2ff;
+}
+
+.log-card {
+  background: #e4e8f2;
+  border-radius: 14px;
+  border: 1px solid #d0d0d0;
+  height: 31vh;
+}
+
+.all-logs {
+  padding: 2px 8px;
+}
+
+.log-row {
+  display: grid;
+  grid-template-columns: 0.65fr 1fr auto;
+  text-align: center;
+  margin-top: 3px;
+  margin-left: 10px;
+  margin: 1.5vh 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #010101;
+}
+
+.cell {
+  display: flex;
+  justify-content: start;
+}
+
+.activity-section {
+  padding: 0px 20px;
+}
+
+.activity-title {
+  font-weight: 500;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.activity-card {
+  padding: 8px 23px;
+  border-radius: 12px;
+  font-size: 13px;
+  color: #616161;
+  background-color: #e9e9e9;
+  height: 22vh;
+  overflow-y: auto;
+  margin-bottom: 1px;
+}
+
+.activity-lines {
+  padding: 2px 0;
+  font-size: 14px;
+}
+
+.toggle {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.toggle.on {
+  background: #64e800;
+}
+.toggle.on.red {
+  background: #e80000;
+}
+.red-color {
+  background: #e80000;
+}

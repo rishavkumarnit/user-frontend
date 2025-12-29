@@ -1,0 +1,278 @@
+.leads-body {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.mobile-header {
+  background-color: #2051e5;
+  padding-top: 8px;
+  padding-left: 22px;
+  padding-bottom: 16px;
+  color: white;
+  border-radius: 0 0 20px 20px;
+  height: 10vh;
+}
+
+.mobile-brand {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.logo-crm {
+  color: #ffd400;
+}
+
+.mobile-title {
+  margin-top: 3vh;
+  font-size: 18px;
+  font-weight: 100;
+}
+.back {
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.back:hover {
+  cursor: pointer;
+}
+
+.leads-search {
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: none;
+  background: #d9d9d9;
+  font-size: 14px;
+  margin: 2vh 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+  height: 3vh;
+}
+.search-input {
+  background-color: #d9d9d9;
+  border: none;
+  width: 70vw;
+}
+.search-input:focus {
+  outline: none;
+}
+
+.lead-list {
+  padding: 10px 0;
+  margin: 0 20px;
+  overflow-y: auto;
+  height: 65vh;
+}
+.lead-list::-webkit-scrollbar {
+  display: none;
+}
+
+.lead-card {
+  background: #eeeeee;
+  border-radius: 16px;
+  padding: 14px;
+  margin-bottom: 14px;
+  position: relative;
+  height: 16vh;
+}
+
+.lead-strip {
+  position: absolute;
+  left: 0;
+  top: 12px;
+  width: 0.7vh;
+  height: 25%;
+  border-radius: 0 10px 10px 0;
+}
+
+.lead-strip.orange {
+  background: #f77307;
+}
+.lead-strip.yellow {
+  background: #f7d307;
+}
+.lead-strip.peach {
+  background: #07eff7;
+}
+.lead-status.orange {
+  border-color: #ff7a00;
+}
+.lead-status.yellow {
+  border-color: #ffd000;
+}
+.lead-status.peach {
+  border-color: #07eff7;
+}
+.lead-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lead-name {
+  font-weight: 600;
+  font-size: 13px;
+}
+.lead-email {
+  font-size: 12px;
+  color: #5a6b8a;
+  margin-top: 4px;
+}
+
+.lead-status {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 8px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.lead-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #4f5e7b;
+}
+
+.lead-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  color: #445668;
+  font-size: 13px;
+  font-weight: 500;
+}
+.lead-icons {
+  display: flex;
+  gap: 10px;
+}
+.icon-items {
+  height: 17px;
+  width: 17px;
+  cursor: pointer;
+}
+
+.popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-box {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.popup-box-schedule {
+  background: white;
+  border-radius: 12px;
+  padding: 20px 20px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  position: relative;
+}
+.dt-text {
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.date-time {
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  color: #343434;
+  padding: 6px;
+}
+
+.popup-box-schedule button {
+  padding: 8px;
+  border-radius: 12px;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
+
+.popup-box button {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background: #222;
+  color: white;
+}
+.type-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  color: #222;
+}
+.orange-clr {
+  background: #ff7a00;
+  color: white;
+}
+
+.yellow-clr {
+  background: #ffd000;
+  color: #222;
+}
+
+.peach-clr {
+  background: #07eff7;
+  color: #222;
+}
+.popup-box-status {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  position: relative;
+}
+.ls-text {
+  font-size: 12px;
+  text-align: start;
+}
+.popup-box-status button {
+  padding: 8px;
+  border-radius: 12px;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
+.cross {
+  cursor: pointer;
+  position: absolute;
+  font-size: 15px;
+  right: 10px;
+  top: 10px;
+}
+.back{
+  cursor: pointer;
+
+}
