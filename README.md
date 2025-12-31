@@ -18,4 +18,6 @@ Kannada, Marathi, English
 
 Cron jobs can't be implemented as the server on render gets killed autamatically after few minutes of inactivity. Therefore used simple db based logic.
 
+Please use user-sevice in small(mobile size) screens only.
+
 **Live Demo:** https://user-frontend-eta.vercel.app/
