@@ -1,7 +1,6 @@
 ## Project Info
 
-## Developed a full-stack Sales CRM system enabling admins to manage employees, upload & distribute leads using automatically, and track real-time sales performance via dashboards and analytics.
-Implemented CSV lead processing, performance-optimized APIs, and persistent user & system configurations.
+## Built a full-stack Sales CRM system with distinct Admin and Sales portals, featuring automated language-based lead assignment, CSV bulk uploads and performance dashboards using React, Node.js, Express, and MongoDB. Sales users can efficiently manage and update leads with real-time data persistence and performance tracking.
 
 ### React.js, Vanilla CSS, Node.js, Express.js, MongoDB, Chart.js
 
