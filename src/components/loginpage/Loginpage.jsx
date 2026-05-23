@@ -50,7 +50,7 @@ const Loginpage = () => {
           <div className="input-group">
             <input
               type="email"
-              placeholder="email"
+              placeholder="test@test.com"
               className="login-input"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -61,7 +61,7 @@ const Loginpage = () => {
           <div className="input-group">
             <input
               type="password"
-              placeholder="password"
+              placeholder="test@test.com"
               className="login-input"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
