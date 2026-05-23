@@ -1,16 +1,27 @@
-# React + Vite
+## Project Info
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Built a full-stack Sales CRM system with distinct Admin and Sales portals, featuring automated language-based lead assignment, CSV bulk uploads and performance dashboards using React, Node.js, Express, and MongoDB. Sales users can efficiently manage and update leads with real-time data persistence and performance tracking.
 
-Currently, two official plugins are available:
+### React.js, Vanilla CSS, Node.js, Express.js, MongoDB, Chart.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Please wait for 1-2 minutes(after loading the page) before using the service as the inactive bckend server take some time to restart.
 
-## React Compiler
+Sample leads file can be downloaded from the Leads page (Add CSV section):  
+https://drive.google.com/file/d/1DiJl5TLfew_MDBREdc-M9ssh0EeLmh3k/view
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Sample Employee Credentials:  
+username: test@test.com 
+password: test@test.com
 
-## Expanding the ESLint configuration
+Admin Credentials:  
+username: admin  
+password: admin
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Supported Languages (case sensitive):  
+Kannada, Marathi, English
+
+Cron jobs can't be implemented as the server on render gets killed autamatically after few minutes of inactivity. Therefore used simple db based logic.
+
+Please use employee-sevice in small(mobile size) screens only.
+
+**Live Demo:** https://user-frontend-eta.vercel.app/
